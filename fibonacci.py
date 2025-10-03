@@ -9,7 +9,7 @@
 while True:
 user_input = input("How many terms do you want in the Fibonacci sequence? ")
 
-if not user_input.isdigit():  # input must be digits
+if not user_input.isdigit():
     print("Please enter a positive integer.")
     continue
 
